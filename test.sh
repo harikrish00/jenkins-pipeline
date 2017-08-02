@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
 set -ex
-env.TEST_VAR="testvalue"
+export TEST_VAR="testvalue"
 echo "Hello World"
