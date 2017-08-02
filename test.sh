@@ -1,5 +1,5 @@
 #!/bin/sh
 
 set -ex
-echo "TEST_VAR=testvalue" > build.properties
+export TEST_VAR="testvalue"
 echo "Hello World"
