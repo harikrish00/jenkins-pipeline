@@ -1,5 +1,5 @@
 #!/bin/bash
 
 set -ex
-echo "TEST_VAR=testvalue" > build.properties
+env.TEST_VAR="testvalue"
 echo "Hello World"
